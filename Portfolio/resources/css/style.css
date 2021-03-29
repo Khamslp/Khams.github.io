@@ -1,0 +1,188 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    font-family: inherit;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+
+
+/********header********/
+
+/********nav********/
+nav {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color: #B38459;
+    width: 100%;
+    overflow: hidden;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #212226;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: space-around;
+    margin-right: 2rem;
+}
+
+nav a:hover {
+    color: #F0E9DF;
+    cursor: pointer;
+}
+/********main********/
+.wrapper {
+    background-color:#F0E9DF;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-size: 2.5rem;
+    color: #291E14;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+.hero {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.profpic {
+    float: left;
+    margin-right: 25px; 
+    border-radius: 15px;
+    max-width: 100%;
+    height: auto;
+}
+
+.profpic:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+blockquote  {
+    margin-top: 20px;
+}
+
+blockquote p {
+    font-style: italic;
+}
+
+blockquote cite {
+    font-weight: bold;
+}
+
+.recipe { 
+    border-top: 2px solid #291E14;
+    padding-top: 15px;
+    margin-top: 50px;
+}
+
+.recipe li {
+    display: flex;
+    margin-left: 40px;
+    list-style-type: initial;
+}
+
+.favlinks {
+    border-top: 2px solid #291E14;
+    padding-top: 15px;
+    margin-top: 120px;
+}
+
+.favlinks p {
+    margin-top: 15px;
+}
+
+.favlinks ul {
+    margin-top: 15px;
+}
+
+.favlinks li {
+    list-style: none;
+}
+
+.favlinks a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.favlinks a:hover {
+    cursor: pointer;
+}
+
+.google {
+    color: #518EF5;
+}
+
+.fem {
+    color: #C02D28;
+}
+
+.youtube {
+    color: #FF0000;
+}
+
+.reddit {
+    color: #FF4500;
+}
+
+.lorem {
+    border-top: 2px solid #291E14;
+    padding-top: 15px;
+    margin-bottom: 50px;
+}
+
+.lorem p {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+footer {
+    margin-top: 0;
+}
+
+/*footer {
+    
+}*/
+
+footer p {
+    padding: 50px 0 50px 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
